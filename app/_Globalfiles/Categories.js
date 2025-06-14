@@ -1,7 +1,12 @@
-const categories = {
-  Brand: {
+const categorylist = {
+  brand: {
+    name: "Brand",
+    image: "",
+    icon: "",
     subcat: {
-      Dell: {
+      dell: {
+        name: "Dell",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Dell Laptops",
@@ -9,7 +14,9 @@ const categories = {
         keywords:
           "refurbished Dell laptops, used Dell laptops, Dell refurbished, affordable Dell laptops",
       },
-      HP: {
+      hp: {
+        name: "HP",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished HP Laptops",
@@ -17,7 +24,9 @@ const categories = {
         keywords:
           "refurbished HP laptops, used HP laptops, HP refurbished, budget HP laptops",
       },
-      Lenovo: {
+      lenovo: {
+        name: "Lenovo",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Lenovo Laptops",
@@ -25,7 +34,9 @@ const categories = {
         keywords:
           "refurbished Lenovo laptops, used Lenovo laptops, Lenovo refurbished, Lenovo deals",
       },
-      Apple: {
+      apple: {
+        name: "Apple",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Apple MacBooks",
@@ -33,7 +44,9 @@ const categories = {
         keywords:
           "refurbished MacBooks, used Apple laptops, Apple refurbished, MacBook deals",
       },
-      Acer: {
+      acer: {
+        name: "Acer",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Acer Laptops",
@@ -41,7 +54,9 @@ const categories = {
         keywords:
           "refurbished Acer laptops, used Acer laptops, Acer refurbished, cheap Acer laptops",
       },
-      Asus: {
+      asus: {
+        name: "Asus",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Asus Laptops",
@@ -49,7 +64,9 @@ const categories = {
         keywords:
           "refurbished Asus laptops, used Asus laptops, Asus refurbished, Asus laptop deals",
       },
-      "Microsoft-Surface": {
+      mssurface: {
+        name: "Microsoft Surface",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Microsoft Surface Laptops",
@@ -57,7 +74,9 @@ const categories = {
         keywords:
           "refurbished Surface laptops, used Microsoft Surface, Surface refurbished, Surface deals",
       },
-      Others: {
+      others: {
+        name: "Others",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Other Refurbished Laptops",
@@ -67,9 +86,14 @@ const categories = {
       },
     },
   },
-  "Use-Case": {
+  usecase: {
+    name: "Use Case",
+    image: "",
+    icon: "",
     subcat: {
-      "Student-Laptops": {
+      student: {
+        name: "Student Laptops",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops for Students",
@@ -77,7 +101,9 @@ const categories = {
         keywords:
           "refurbished student laptops, used laptops for students, student laptops, budget laptops",
       },
-      "Business-Laptops": {
+      business: {
+        name: "Business Laptops",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Business Laptops",
@@ -85,7 +111,9 @@ const categories = {
         keywords:
           "refurbished business laptops, used business laptops, professional laptops, work laptops",
       },
-      "Gaming-Laptops": {
+      gaming: {
+        name: "Gaming Laptops",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Gaming Laptops",
@@ -93,7 +121,9 @@ const categories = {
         keywords:
           "refurbished gaming laptops, used gaming laptops, gaming laptops, budget gaming laptops",
       },
-      "Everyday-Use": {
+      everyday: {
+        name: "Everyday Use",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops for Everyday Use",
@@ -101,7 +131,9 @@ const categories = {
         keywords:
           "refurbished everyday laptops, used laptops for daily use, everyday laptops, affordable laptops",
       },
-      "Lightweight-&-Portable": {
+      lightweight: {
+        name: "Lightweight & Portable",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Ultrabooks",
@@ -109,7 +141,9 @@ const categories = {
         keywords:
           "refurbished ultrabooks, used ultrabooks, lightweight laptops, portable laptops",
       },
-      "Work-From-Home-Laptops": {
+      workfromhome: {
+        name: "Work From Home Laptops",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Work From Home Laptops",
@@ -117,7 +151,9 @@ const categories = {
         keywords:
           "refurbished WFH laptops, used work from home laptops, remote work laptops, home office laptops",
       },
-      "Graphic-Design-or-Video-Editing": {
+      gdorve: {
+        name: "Graphic Design or Video Editing",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops for Graphic Design & Video Editing",
@@ -127,9 +163,14 @@ const categories = {
       },
     },
   },
-  Processor: {
+  processor: {
+    name: "Processor",
+    image: "",
+    icon: "",
     subcat: {
-      "Intel-i3": {
+      inteli3: {
+        name: "Intel i3",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Intel i3 Laptops",
@@ -137,7 +178,9 @@ const categories = {
         keywords:
           "refurbished Intel i3 laptops, used i3 laptops, Intel i3 laptops, budget laptops",
       },
-      "Intel-i5": {
+      inteli5: {
+        name: "Intel i5",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Intel i5 Laptops",
@@ -145,7 +188,9 @@ const categories = {
         keywords:
           "refurbished Intel i5 laptops, used i5 laptops, Intel i5 laptops, mid-range laptops",
       },
-      "Intel-i7": {
+      inteli7: {
+        name: "Intel i7",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Intel i7 Laptops",
@@ -153,7 +198,9 @@ const categories = {
         keywords:
           "refurbished Intel i7 laptops, used i7 laptops, Intel i7 laptops, high-performance laptops",
       },
-      "Intel-i9": {
+      inteli9: {
+        name: "Intel i9",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Intel i9 Laptops",
@@ -161,7 +208,9 @@ const categories = {
         keywords:
           "refurbished Intel i9 laptops, used i9 laptops, Intel i9 laptops, premium laptops",
       },
-      "AMD-Ryzen-3": {
+      ryzen3: {
+        name: "AMD Ryzen 3",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished AMD Ryzen 3 Laptops",
@@ -169,7 +218,9 @@ const categories = {
         keywords:
           "refurbished Ryzen 3 laptops, used Ryzen 3 laptops, AMD Ryzen laptops, affordable laptops",
       },
-      "AMD-Ryzen-5": {
+      ryzen5: {
+        name: "AMD Ryzen 5",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished AMD Ryzen 5 Laptops",
@@ -177,7 +228,9 @@ const categories = {
         keywords:
           "refurbished Ryzen 5 laptops, used Ryzen 5 laptops, AMD Ryzen laptops, mid-range laptops",
       },
-      "AMD-Ryzen-7": {
+      ryzen7: {
+        name: "AMD Ryzen 7",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished AMD Ryzen 7 Laptops",
@@ -185,7 +238,9 @@ const categories = {
         keywords:
           "refurbished Ryzen 7 laptops, used Ryzen 7 laptops, AMD Ryzen laptops, high-performance laptops",
       },
-      "AMD-Ryzen-9": {
+      ryzen9: {
+        name: "AMD Ryzen 9",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished AMD Ryzen 9 Laptops",
@@ -195,9 +250,14 @@ const categories = {
       },
     },
   },
-  RAM: {
+  ram: {
+    name: "RAM",
+    image: "",
+    icon: "",
     subcat: {
-      "4-GB": {
+      gb4: {
+        name: "4 GB",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 4GB RAM",
@@ -205,7 +265,9 @@ const categories = {
         keywords:
           "refurbished 4GB RAM laptops, used laptops 4GB, 4GB RAM laptops, budget laptops",
       },
-      "8-GB": {
+      gb8: {
+        name: "8 GB",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 8GB RAM",
@@ -213,7 +275,9 @@ const categories = {
         keywords:
           "refurbished 8GB RAM laptops, used laptops 8GB, 8GB RAM laptops, multitasking laptops",
       },
-      "16-GB": {
+      gb16: {
+        name: "16 GB",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 16GB RAM",
@@ -221,7 +285,9 @@ const categories = {
         keywords:
           "refurbished 16GB RAM laptops, used laptops 16GB, 16GB RAM laptops, high-performance laptops",
       },
-      "32-GB+": {
+      bg32: {
+        name: "32 GB+",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 32GB+ RAM",
@@ -231,9 +297,14 @@ const categories = {
       },
     },
   },
-  Storage: {
+  storage: {
+    name: "Storage",
+    image: "",
+    icon: "",
     subcat: {
-      "HDD-(500GB)": {
+      hdd500gb: {
+        name: "HDD (500GB)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 500GB HDD",
@@ -241,7 +312,9 @@ const categories = {
         keywords:
           "refurbished 500GB HDD laptops, used laptops 500GB, HDD laptops, budget laptops",
       },
-      "HDD-(1TB)": {
+      hdd1tb: {
+        name: "HDD (1TB)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 1TB HDD",
@@ -249,7 +322,9 @@ const categories = {
         keywords:
           "refurbished 1TB HDD laptops, used laptops 1TB, HDD laptops, large storage laptops",
       },
-      "SSD-(128GB)": {
+      ssd128gb: {
+        name: "SSD (128GB)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 128GB SSD",
@@ -257,7 +332,9 @@ const categories = {
         keywords:
           "refurbished 128GB SSD laptops, used laptops 128GB, SSD laptops, fast laptops",
       },
-      "SSD-(256GB)": {
+      ssd256gb: {
+        name: "SSD (256GB)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 256GB SSD",
@@ -265,7 +342,9 @@ const categories = {
         keywords:
           "refurbished 256GB SSD laptops, used laptops 256GB, SSD laptops, performance laptops",
       },
-      "SSD-(512GB)": {
+      ssd512gb: {
+        name: "SSD (512GB)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 512GB SSD",
@@ -273,7 +352,9 @@ const categories = {
         keywords:
           "refurbished 512GB SSD laptops, used laptops 512GB, SSD laptops, high-speed laptops",
       },
-      "SSD-(1TB)": {
+      ssd1tb: {
+        name: "SSD (1TB)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 1TB SSD",
@@ -281,7 +362,9 @@ const categories = {
         keywords:
           "refurbished 1TB SSD laptops, used laptops 1TB, SSD laptops, premium laptops",
       },
-      Hybrid: {
+      hybrid: {
+        name: "Hybrid",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with Hybrid Storage",
@@ -291,9 +374,14 @@ const categories = {
       },
     },
   },
-  "Screen-Size": {
+  screensize: {
+    name: "Screen Size",
+    image: "",
+    icon: "",
     subcat: {
-      '11"-–-13"': {
+      s1113: {
+        name: `11"-–-13"`,
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 11-13 Inch Screens",
@@ -301,7 +389,9 @@ const categories = {
         keywords:
           "refurbished 11-13 inch laptops, used small screen laptops, portable laptops, ultrabooks",
       },
-      '14"': {
+      s14: {
+        name: '14"',
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 14 Inch Screens",
@@ -309,7 +399,9 @@ const categories = {
         keywords:
           "refurbished 14 inch laptops, used 14 inch laptops, 14 inch screen laptops, versatile laptops",
       },
-      '15.6"': {
+      s15: {
+        name: '15.6"',
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 15.6 Inch Screens",
@@ -317,7 +409,9 @@ const categories = {
         keywords:
           "refurbished 15.6 inch laptops, used 15 inch laptops, 15.6 inch screen laptops, multimedia laptops",
       },
-      '17"+': {
+      s17: {
+        name: '17"+',
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with 17 Inch+ Screens",
@@ -327,9 +421,14 @@ const categories = {
       },
     },
   },
-  "Condition-Grade": {
+  conditiongrade: {
+    name: "Condition Grade",
+    image: "",
+    icon: "",
     subcat: {
-      "Grade-A-(Excellent)": {
+      gradea: {
+        name: "Grade A (Excellent)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Grade A Refurbished Laptops",
@@ -337,7 +436,9 @@ const categories = {
         keywords:
           "Grade A refurbished laptops, used laptops excellent condition, premium refurbished laptops, like-new laptops",
       },
-      "Grade-B-(Good-–-Minor-signs-of-use)": {
+      gradeb: {
+        name: "Grade B (Good – Minor signs of use)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Grade B Refurbished Laptops",
@@ -345,7 +446,9 @@ const categories = {
         keywords:
           "Grade B refurbished laptops, used laptops good condition, budget refurbished laptops, minor wear laptops",
       },
-      "Grade-C-(Acceptable-–-Visible wear)": {
+      gradec: {
+        name: "Grade C (Acceptable – Visible wear)",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Grade C Refurbished Laptops",
@@ -353,7 +456,9 @@ const categories = {
         keywords:
           "Grade C refurbished laptops, used laptops acceptable condition, cheap refurbished laptops, budget laptops",
       },
-      "Open-Box": {
+      openbox: {
+        name: "Open Box",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Open Box Refurbished Laptops",
@@ -363,9 +468,14 @@ const categories = {
       },
     },
   },
-  "Price-Range": {
+  pricerange: {
+    name: "Price Range",
+    image: "",
+    icon: "",
     subcat: {
-      "Under-₹15,000": {
+      u15: {
+        name: "Under ₹15,000",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops Under ₹15,000",
@@ -373,7 +483,9 @@ const categories = {
         keywords:
           "refurbished laptops under 15000, used laptops under 15000, budget laptops, cheap laptops",
       },
-      "₹15,001-–-₹25,000": {
+      f15t25: {
+        name: "₹15,001 – ₹25,000",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops ₹15,001 – ₹25,000",
@@ -381,7 +493,9 @@ const categories = {
         keywords:
           "refurbished laptops 15001-25000, used laptops 15001-25000, affordable laptops, mid-range laptops",
       },
-      "₹25,001-–-₹35,000": {
+      f25t35: {
+        name: "₹25,001 – ₹35,000",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops ₹25,001 – ₹35,000",
@@ -389,7 +503,9 @@ const categories = {
         keywords:
           "refurbished laptops 25001-35000, used laptops 25001-35000, performance laptops, value laptops",
       },
-      "₹35,001-–-₹50,000": {
+      f35t50: {
+        name: "₹35,001 – ₹50,000",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops ₹35,001 – ₹50,000",
@@ -397,7 +513,9 @@ const categories = {
         keywords:
           "refurbished laptops 35001-50000, used laptops 35001-50000, high-performance laptops, professional laptops",
       },
-      "₹50,000+": {
+      a50: {
+        name: "₹50,000+",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops Above ₹50,000",
@@ -407,9 +525,14 @@ const categories = {
       },
     },
   },
-  "Operating-System": {
+  os: {
+    name: "Operating System",
+    image: "",
+    icon: "",
     subcat: {
-      "Windows-10": {
+      w10: {
+        name: "Windows 10",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with Windows 10",
@@ -417,7 +540,9 @@ const categories = {
         keywords:
           "refurbished Windows 10 laptops, used Windows 10 laptops, Windows 10 laptops, affordable laptops",
       },
-      "Windows-11": {
+      w11: {
+        name: "Windows 11",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with Windows 11",
@@ -425,7 +550,9 @@ const categories = {
         keywords:
           "refurbished Windows 11 laptops, used Windows 11 laptops, Windows 11 laptops, modern laptops",
       },
-      macOS: {
+      macos: {
+        name: "macOS",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with macOS",
@@ -433,7 +560,9 @@ const categories = {
         keywords:
           "refurbished macOS laptops, used MacBooks, macOS laptops, Apple laptops",
       },
-      "Chrome-OS": {
+      chromeos: {
+        name: "Chrome OS",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with Chrome OS",
@@ -441,7 +570,9 @@ const categories = {
         keywords:
           "refurbished Chrome OS laptops, used Chromebooks, Chrome OS laptops, budget laptops",
       },
-      Linux: {
+      linux: {
+        name: "Linux",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptops with Linux",
@@ -451,9 +582,14 @@ const categories = {
       },
     },
   },
-  "Accessories-&-Add-ons": {
+  accessories: {
+    name: "Accessories & Add ons",
+    image: "",
+    icon: "",
     subcat: {
-      "Laptop-Chargers": {
+      charger: {
+        name: "LaptopChargers",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptop Chargers",
@@ -461,7 +597,9 @@ const categories = {
         keywords:
           "refurbished laptop chargers, used laptop chargers, laptop accessories, laptop power adapters",
       },
-      "Laptop-Bags": {
+      laptopbags: {
+        name: "Laptop Bags",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Laptop Bags for Refurbished Laptops",
@@ -469,7 +607,9 @@ const categories = {
         keywords:
           "laptop bags, refurbished laptop accessories, laptop carry bags, protective laptop bags",
       },
-      "Docking-Stations": {
+      dockingstations: {
+        name: "Docking Stations",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Refurbished Laptop Docking Stations",
@@ -477,7 +617,9 @@ const categories = {
         keywords:
           "refurbished docking stations, used laptop docking stations, laptop accessories, docking stations",
       },
-      "External-Mouse-or-Keyboard": {
+      mouseorkeyboard: {
+        name: "External Mouse or Keyboard",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "External Mouse and Keyboard for Laptops",
@@ -485,7 +627,9 @@ const categories = {
         keywords:
           "laptop mouse, laptop keyboard, refurbished laptop accessories, external peripherals",
       },
-      "Extended-Warranty": {
+      extendedwarranty: {
+        name: "Extended Warranty",
+        icon: "",
         image:
           "https://www.tpstech.in/cdn/shop/products/Dell_s2421hn_Monitor_-_From_tpstech.in_-main2.jpg?v=1652703185&width=1445",
         title: "Extended Warranty for Refurbished Laptops",
@@ -497,4 +641,4 @@ const categories = {
   },
 };
 
-export default categories;
+export default categorylist;

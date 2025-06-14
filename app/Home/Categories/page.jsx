@@ -19,7 +19,7 @@ async function page({ searchParams }) {
               key={i}
               product={{
                 imageUrl:
-                  "https://headsupfortails.com/cdn/shop/articles/How_to_Calculate_Your_Cat_s_Age_in_Human_Years_large.jpg?v=1738042061",
+                  "https://i.pinimg.com/736x/c4/56/3f/c4563f33f93c5ac81a51921b34fb7251.jpg",
                 title: "Dell latitude 7390",
                 rating: "4.3",
                 reviews: "1.4k",

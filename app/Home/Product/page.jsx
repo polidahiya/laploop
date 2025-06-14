@@ -110,3 +110,52 @@ const ProductPage = () => {
 };
 
 export default ProductPage;
+
+// const productdata = {
+//   name: "Dell Latitude 5420",
+//   brand: "Dell",
+//   usecase: ["Office", "Student"],
+
+//   options: {
+//     processor: ["i5-1145G7", "i7-1185G7"],
+//     ram: ["8GB", "16GB"],
+//     storage: ["256GB SSD", "512GB SSD"],
+//   },
+
+//   priceMatrix: [
+//     {
+//       processor: "i5-1145G7",
+//       ram: "8GB",
+//       storage: "256GB SSD",
+//       price: 32999,
+//     },
+//     {
+//       processor: "i5-1145G7",
+//       ram: "8GB",
+//       storage: "512GB SSD",
+//       price: 34999,
+//     },
+//     {
+//       processor: "i7-1185G7",
+//       ram: "16GB",
+//       storage: "512GB SSD",
+//       price: 39999,
+//     },
+//     {
+//       processor: "i7-1185G7",
+//       ram: "16GB",
+//       storage: "1TB SSD",
+//       price: 42999,
+//     },
+//   ],
+// };
+
+// const getPrice = (selectedOptions) => {
+//   const match = productdata.priceMatrix.find(
+//     (entry) =>
+//       entry.processor === selectedOptions.processor &&
+//       entry.ram === selectedOptions.ram &&
+//       entry.storage === selectedOptions.storage
+//   );
+//   return match?.price ?? "Out of Stock";
+// };

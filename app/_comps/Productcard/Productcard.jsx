@@ -9,8 +9,8 @@ function Productcard({ product }) {
 
   const productlink = "/";
   return (
-    <div className="group w-full bg-white rounded-2xl shadow-md hover:shadow-none overflow-hidden">
-      <div className="relative bg-gray-100 lg:group-hover:rounded-2xl duration-500 overflow-hidden">
+    <div className="group w-full rounded-2xl shadow-md delay-500 hover:delay-[0s] duration-500 hover:duration-[0s] hover:shadow-none overflow-hidden">
+      <div className="relative overflow-hidden">
         <Link
           href={productlink}
           className="relative block w-full aspect-square  bg-white lg:group-hover:scale-90 lg:group-hover:rounded-3xl shadow-md lg:group-hover:-translate-x-1/2 overflow-hidden duration-500 z-10"
@@ -23,7 +23,10 @@ function Productcard({ product }) {
         </Link>
         <Hovermenu />
       </div>
-      <Link href={productlink} className="block p-4">
+      <Link
+        href={productlink}
+        className="block p-4 bg-white lg:group-hover:rounded-2xl duration-500"
+      >
         <h3 className="text-lg font-semibold text-gray-800 line-clamp-2">
           {product.title}
         </h3>
